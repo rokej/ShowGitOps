@@ -3,28 +3,29 @@ kind: Subscription
 metadata:
   annotations:
   labels:
-    app: app1
-  name: app1-subscription-1
-  namespace: app1
+    app: appNN
+  name: appNN-subscription
+  namespace: appNN
 spec:
   channel: hrokejgithubio-showgitops-ns/hrokejgithubio-showgitops
-  name: helm-chart-app1
+  name: helm-chart-appMM
   packageOverrides:
-  - packageName: helm-chart-app1
-    packageAlias: helm-chart-app1
+  - packageName: helm-chart-appMM
+    packageAlias: helm-chart-appMM
   placement:
     placementRef:
       kind: PlacementRule
-      name: app1-placement-1
+      name: appNN-placement
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   labels:
-    app: app1
-  name: app1-placement-1
-  namespace: app1
+    app: appNN
+  name: appNN-placement
+  namespace: appNN
 spec:
   clusterSelector:
     matchLabels:
       'name': 'phil-managed'
+---
