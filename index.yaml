@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  helm-chart-app1:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-02-11T14:01:09.685831-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 724a177efcdf0a95b2340fd2da4bd2977a68350d9739f2a11f258ae1c1b5a3a9
+    name: helm-chart-app1
+    type: application
+    urls:
+    - https://rokej.github.io/ShowGitOps/helm-chart-sources/helm-chart-app1-0.1.0.tgz
+    version: 0.1.0
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-11T13:45:38.90189-05:00"
+    created: "2022-02-11T14:01:09.686634-05:00"
     description: A Helm chart for Kubernetes
     digest: c6509854d5e20775f709073103117fec7d97214d6c409ec376bcdc91556baaed
     name: helm-chart-test
     type: application
     urls:
-    - https://rokej.github.com/ShowGitOps/helm-chart-sources/helm-chart-test-0.1.0.tgz
+    - https://rokej.github.io/ShowGitOps/helm-chart-sources/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-11T13:45:38.90092-05:00"
+generated: "2022-02-11T14:01:09.684939-05:00"
