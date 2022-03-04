@@ -9,7 +9,7 @@ entries:
     name: helm-chart-app1
     type: application
     urls:
-    - https://rokej.github.io/ShowGitOps/helm-chart-sources/helm-chart-app1-0.1.0.tgz
+    - https://raw.githubusercontent.com/rokej/ShowGitOps/main/helm-chart-sources/helm-chart-app1-0.1.0.tgz
     version: 0.1.0
   helm-chart-app2:
   - apiVersion: v2
@@ -20,7 +20,7 @@ entries:
     name: helm-chart-app2
     type: application
     urls:
-    - https://rokej.github.io/ShowGitOps/helm-chart-sources/helm-chart-app2-0.1.0.tgz
+    - https://raw.githubusercontent.com/rokej/ShowGitOps/main/helm-chart-sources/helm-chart-app2-0.1.0.tgz
     version: 0.1.0
   helm-chart-app3:
   - apiVersion: v2
@@ -31,7 +31,7 @@ entries:
     name: helm-chart-app3
     type: application
     urls:
-    - https://rokej.github.io/ShowGitOps/helm-chart-sources/helm-chart-app3-0.1.0.tgz
+    - https://raw.githubusercontent.com/rokej/ShowGitOps/main/helm-chart-sources/helm-chart-app3-0.1.0.tgz
     version: 0.1.0
   helm-chart-app4:
   - apiVersion: v2
@@ -42,7 +42,7 @@ entries:
     name: helm-chart-app4
     type: application
     urls:
-    - https://rokej.github.io/ShowGitOps/helm-chart-sources/helm-chart-app4-0.1.0.tgz
+    - https://raw.githubusercontent.com/rokej/ShowGitOps/main/helm-chart-sources/helm-chart-app4-0.1.0.tgz
     version: 0.1.0
   helm-chart-app5:
   - apiVersion: v2
@@ -53,7 +53,7 @@ entries:
     name: helm-chart-app5
     type: application
     urls:
-    - https://rokej.github.io/ShowGitOps/helm-chart-sources/helm-chart-app5-0.1.0.tgz
+    - https://raw.githubusercontent.com/rokej/ShowGitOps/main/helm-chart-sources/helm-chart-app5-0.1.0.tgz
     version: 0.1.0
   helm-chart-app6:
   - apiVersion: v2
@@ -64,6 +64,6 @@ entries:
     name: helm-chart-app6
     type: application
     urls:
-    - https://rokej.github.io/ShowGitOps/helm-chart-sources/helm-chart-app6-0.1.0.tgz
+    - https://raw.githubusercontent.com/rokej/ShowGitOps/main/helm-chart-sources/helm-chart-app6-0.1.0.tgz
     version: 0.1.0
 generated: "2022-02-11T16:05:26.915916-05:00"
