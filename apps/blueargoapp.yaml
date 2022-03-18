@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: blue-argo-app
-  namespace: blueargoapp
+  namespace: openshift-gitops
 spec:
   destination:
     namespace: blueargoapp
