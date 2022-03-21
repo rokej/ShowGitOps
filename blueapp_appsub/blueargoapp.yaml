@@ -8,7 +8,7 @@ spec:
     namespace: blueargoapp-appsub
     server: 'https://kubernetes.default.svc'
   source:
-    path: sub1
+    path: resource
     repoURL: https://github.com/rokej/testrepo.git
     targetRevision: master
   syncPolicy:
