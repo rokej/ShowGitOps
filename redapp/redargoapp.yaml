@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: redargoapp
-  namespace: redargoapp
+  name: red-app-appset
+  namespace: openshift-gitops
 spec:
   destination:
-    namespace: redargoapp
+    namespace: redargoapp-appset
     server: 'https://kubernetes.default.svc'
   source:
     path: resource
