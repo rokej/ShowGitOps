@@ -8,9 +8,9 @@ spec:
     namespace: blueargoapp
     server: 'https://kubernetes.default.svc'
   source:
-    path: sub1
-    repoURL: https://github.com/rokej/testrepo.git
-    targetRevision: master
+    repoURL: https://github.com/rokej/BlueApplications.git
+    targetRevision: main
+    path: kioskApplication
   syncPolicy:
     automated:
       selfHeal: true
