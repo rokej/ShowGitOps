@@ -4,4 +4,4 @@ metadata:
   name: hypershift-override-images
   namespace: local-cluster
 data:
-  hypershift-operator: quay.io/stolostron/hypershift-operator@@sha256:fc382118bf96e1d6b6ef23012e5837ca98c8ac2f8d4fc25189d3a07e0c4db78a
+  hypershift-operator: quay.io/stolostron/hypershift-operator@sha256:fc382118bf96e1d6b6ef23012e5837ca98c8ac2f8d4fc25189d3a07e0c4db78a
