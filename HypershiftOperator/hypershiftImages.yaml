@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hypershift-override-images
+data:
+  apiserver-network-proxy: quay.io/stolostron/apiserver-network-proxy@sha256:dc74c7c67ca851f50b83d7a03f91d028214fd8a941f12edd4411b860dc7b763d
+  aws-encryption-provider: quay.io/stolostron/aws-encryption-provider@sha256:83f11e28004fcbb31d7ec6c34ef2d2ec7dd8fc175c5e0135f6ace9894c65bfd0
+  cluster-api: quay.io/stolostron/cluster-api@sha256:7a04ac4e5bdaf29498af75b2b7c4ff19cb6223f2076c9373a3a955553243ddda
+  cluster-api-provider-agent: quay.io/stolostron/cluster-api-provider-agent@sha256:4fbc94f08ba215431306c55f7ef5e395fbdcd714b387455ad44b7f7b3750e1a7
+  cluster-api-provider-aws: quay.io/stolostron/cluster-api-aws-controller@sha256:22a57cf5b74d0692025f0b0f57c5f28f8b492ea13295e9101b63f57766ffff38
+  cluster-api-provider-azure: quay.io/stolostron/cluster-api-provider-azure@sha256:f6e780adc1bf3fe64303fcb8c5d080ab639e62c62d0577a1bbae5b5f5bfa393d
+  cluster-api-provider-kubevirt: quay.io/stolostron/cluster-api-provider-kubevirt@sha256:ea960184a6176c591594f5cf8d90b4c3ce4079aa2d6d17564e0880b518fb12af
+  hypershift-operator: quay.io/stolostron/hypershift-operator@sha256:fc382118bf96e1d6b6ef23012e5837ca98c8ac2f8d4fc25189d3a07e0c4db78a
