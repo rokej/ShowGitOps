@@ -10,4 +10,4 @@ data:
   cluster-api-provider-aws: quay.io/stolostron/cluster-api-aws-controller@sha256:22a57cf5b74d0692025f0b0f57c5f28f8b492ea13295e9101b63f57766ffff38
   cluster-api-provider-azure: quay.io/stolostron/cluster-api-provider-azure@sha256:f6e780adc1bf3fe64303fcb8c5d080ab639e62c62d0577a1bbae5b5f5bfa393d
   cluster-api-provider-kubevirt: quay.io/stolostron/cluster-api-provider-kubevirt@sha256:ea960184a6176c591594f5cf8d90b4c3ce4079aa2d6d17564e0880b518fb12af
-  hypershift-operator: quay.io/stolostron/hypershift-operator@sha256:fc382118bf96e1d6b6ef23012e5837ca98c8ac2f8d4fc25189d3a07e0c4db78a
+  hypershift-operator: quay.io/stolostron/hypershift-operator@sha256:d457530626e2bff69e63f70a7e0ee6f2512abc14094317dfaed9adc85411b3e8
